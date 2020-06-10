@@ -119,7 +119,7 @@ class tkar(QDialog):
 
 if __name__ == '__main__':
     # Instancia para iniciar una aplicacion
-    app = QApplication(sys.argv)
+    app = QApplication([])
     # Crear un objeto de la clase
     _window = tkar()
     # Muestra la ventana
